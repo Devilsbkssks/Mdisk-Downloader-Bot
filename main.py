@@ -40,7 +40,7 @@ from split import ss, temp_channel, isPremmium
 if isPremmium: acc = Client("myacc", api_id=api_id, api_hash=api_hash, session_string=ss)
 
 # optionals
-auth = os.environ.get("AUTH", "1291288382,1296213694,5104293442,5201973365")
+auth = os.environ.get("AUTH", "user_id")
 ban = os.environ.get("BAN", "")
 from mdisk import iswin
 
